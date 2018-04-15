@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projetos li {
+    width: 45%;
+    border: 8px solid #000;
+    background-color: #FAFFFC;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    font-size: 19pt;
+    flex: 1 1 45%;
+}
+
+.projetos li:first-child {
+    flex-basis: 100%;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.projetos img {
+    width: 100%;
+    box-shadow: 0 0 .5em #000;
+}

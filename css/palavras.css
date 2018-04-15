@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+
+.palavra-home {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    color: #D5447E;
+}
+
+.palavras-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.palavras-home li {
+    font-size: 120%;
+}
+
+.eficiencia {
+    position: absolute;
+    top: 12%;
+    right: 65%;
+    transform: rotate(20deg) translateZ(2px);
+    opacity: 0.5;
+}
+
+.boas-praticas {
+    position: absolute;
+    top: 38%;
+    left: 84%;
+    transform: translate(-50%, 50%) rotate(-10deg) translateZ(1px);
+}
+
+.codigo-limpo {
+    position: absolute;
+    top: 31%;
+    left: 14%;
+    transform: rotate(-38deg) translateZ(3px);
+}
+
+.css3 {
+    position: absolute;
+    top: 15%;
+    left: 62%;
+    transform: translate(-50%, -50%) rotate(14deg) translateZ(2px);
+    opacity: .7;
+}
+
+.html5 {
+    position: absolute;
+    top: 23%;
+    right: 30%;
+    transform: translate(-50%, 50%) rotate(-18deg) translateZ(2px);
+}
+
+.javascript {
+    position: absolute;
+    top: 36%;
+    left: 65%;
+    transform: translate(-50%, 50%) rotate(18deg) translateZ(3px);
+    opacity: .5;
+}
+
+.acessibilidade {
+    position: absolute;
+    top: 29%;
+    right: 70%;
+    transform: rotate(-15deg) translateZ(3px);
+}
+
+.responsivo {
+    position: absolute;
+    top: 30%;
+    left: 79%;
+    transform: translate(-50%, -50%)rotate(-29deg) translateZ(3px);
+}
+
+.otimizacoes {
+    position: absolute;
+    top: 14%;
+    left: 70%;
+    transform: rotate(-17deg) translateZ(2px);
+}
+
+.agilidade {
+    position: absolute;
+    top: 15%;
+    left: 19%;
+    transform: rotate(31deg) translateZ(4px);
+}
+
+.design {
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    transform: rotate(-30deg) translateZ(3px);
+}

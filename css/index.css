@@ -1,0 +1,328 @@
+.titulo-principal {
+    background-image: linear-gradient(to bottom, #f00, #888 20%, #000);
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    perspective: 18px;
+    height: inherit;
+    overflow-x: inherit;
+    transform-style: preserve-3d;
+    perspective-origin: 50% 160px;
+    display: block;
+}
+
+.inicio-post {
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    height: 6em;
+    font-size: 1.1rem;
+}
+
+.blog .inicio-post {
+    position: absolute;
+    top: 1em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    padding: 1.5em;
+    opacity: 0;
+    background-color: #F2FFFC;
+}
+
+.blog .mais-recente:hover,
+.blog .mais-recente:focus {
+    background-color: #F2FFFC;
+} 
+
+.blog .mais-recente a:hover,
+.blog .mais-recente a:focus {
+    color: #F26;
+}
+
+
+.mais-recente:hover .inicio-post,
+.mais-recente:focus .inicio-post {
+    opacity: 1;
+}
+
+
+.blog li {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.foto-home {
+    height: 13rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1em #000;
+}
+
+.titulo-principal h1 {
+    font-size: 160%;
+    padding-top: 2%;
+}
+
+.subtitulo-principal {
+    font-size: 80%;
+    text-align: center;
+}
+
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+    font-size: 2rem;
+    margin-bottom: 15%;
+    text-align: justify;
+}
+
+.saudacao-inicio {
+    color: #889;
+    font-size: 250%;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: inline-block;
+    padding-left: 47%;
+}
+
+.saudacao strong {
+    color: #000;
+    font-size: 250%;
+    padding-right: 45%;
+}
+
+.saudacao em {
+    color: #851944;
+    font-size: 250%;
+    display: inline-block;
+    transform: rotate(-8deg) skew(3deg);
+                
+}
+
+.siga-me {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    transform-origin: 0 0;
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+    padding-top: 1.2rem;
+    color: #fff;
+    border: .3rem solid #000;
+    font-family: Open Sans Condensed, sans-serif;
+    font-size: 80%;
+    background-color: #3C1D3D;
+    width: 17%;
+    height: 3.5em;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    padding: .5rem;
+    width: 400px;
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    position: absolute;
+    left: 35%;
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #fff;
+    text-decoration: none;
+    transition: .5s;
+    animation: aumenta .5s; 
+}
+
+.botao-index:hover,
+.botao-index:focus {
+    text-shadow: 0 0 1em #FA9;
+    color: #FFF;
+    background-color: #C54974;
+}
+
+.secao-inicio h2 {
+    text-transform: uppercase;
+    padding-top: .8em;
+    font-size: 2.1em;
+    text-shadow: 5px 5px #000;
+}
+
+.trabalhos {
+    background-color: #3C1D3D;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0, 0, 0, .1) 14px, rgba(0, 0, 0, .1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    border-top: .5rem solid #000;
+    border-bottom: .5rem solid #000;
+    padding-bottom: 12%;
+}
+
+.trabalhos h2 {
+    color: #FFF;
+    padding-left: 2.5%;
+}
+
+.trabalhos ul {
+    display: flex;
+    flex: 1;
+    position: relative;
+    top: 3.5rem;
+}
+
+.trabalhos li {
+    width: 33.333%;
+    border: .5rem solid black;
+}
+
+.trabalhos li:first-child {
+    order: 2;
+}
+
+.trabalhos li:first-child:hover {
+    transform: scale(1.2);
+}
+
+.trabalhos:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
+}
+
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5rem solid #851944;
+    padding-bottom: 10%;
+    text-align: justify;
+    position: relative;
+}
+
+.blog h2, small {
+    padding-left: 2.5%;
+    line-height: 1;
+}
+
+.blog li a {
+    color: #FCF;
+    line-height: 2.3em;
+    padding-left: 1%;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding-bottom: 1%;
+}
+
+footer h2 {
+    font-size: 2.6em;
+    padding-top: 1.3%;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+.veja-mais {
+    position: relative;
+    bottom: -6em;
+}
+
+.conheca {
+    position: relative;
+    top: -3em;
+}
+
+@-webkit-keyframes aumenta {
+    0% {
+        opacity: 0;
+        transform: scale(.6);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes aumenta {
+    0% {
+        opacity: .3;
+        transform: scale(.6);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+.palavras-home {
+    -webkit-animation: aumenta 2s;
+    animation: aumenta 2s;
+    animation-fill-mode: backwards;
+}
+
+.siga-me {
+    animation: aumenta .5s;
+    transition-delay: 2s;
+}
+
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+
+    to {
+        top: 5px;
+    }
+}
+
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+
+    to {
+        top: 5px;
+    }
+}
+
+.saudacao em {
+    -webkit-animation: flutua 1s infinite;
+    animation: flutua 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    position: relative;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+.saudacao:hover em {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
